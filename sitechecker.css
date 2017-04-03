@@ -1,0 +1,46 @@
+html, body {
+  width: 400px;
+}
+
+a {
+  color: inherit;
+  margin: 7px; margin-left: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.switch-tabs {
+  padding-left: 10px;
+}
+
+.switch-tabs a {
+  display: block;
+}
+
+.panel {
+  margin: 5px;
+}
+span {
+	/*background-color: rgb(217, 83, 79);*/
+	background-color: rgb(96, 96, 96);
+	border-bottom-left-radius: 2.63333px;
+	border-bottom-right-radius: 2.63333px;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	border-top-left-radius: 2.63333px;
+	border-top-right-radius: 2.63333px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: auto;
+	display: inline;
+	font-size: 10.5px;
+	font-weight: 700;
+	line-height: 11px;
+	padding-bottom: 3.15px;
+	padding-left: 6.3px;
+	padding-right: 6.3px;
+	padding-top: 2.1px;
+	text-align: center;
+	vertical-align: baseline;
+	white-space: nowrap;
+}

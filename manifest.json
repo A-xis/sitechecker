@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "SiteChecker",
+  "version": "0.1-dev",
+
+  "description": "Adds a browser action icon to the browser to test different aspect of a website (SSL, headers ...).",
+  "homepage_url": "https://github.com/A-xis/sitechecker",
+  "icons": {
+    "48": "padlock.svg",
+    "96": "padlock.svg"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "padlock.svg",
+    "default_title": "SiteChecker",
+    "default_popup": "sitechecker.html",
+    "browser_style": true
+  }
+
+}
